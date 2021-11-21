@@ -1,0 +1,166 @@
+/*header*/
+.header{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color: rgba(27, 25, 25, 0.548);
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+}
+
+.header .header-logo{
+    color: #ffffff;
+    font-size: 2rem;
+    font-family: 'Pacifico', cursive;
+    float: left;
+    margin-left: 30px;
+}
+
+.header .header-menu{
+    float: right;
+    margin-right: 30px;
+}
+
+.header .header-menu a{
+    margin-left: 15px;
+    color: #ffffff;
+    transition: font-size 1.5; 
+}
+
+.header .header-menu a:hover{
+    color: #2d89c7;
+    font-size: 1.3em;
+   
+}
+
+/* titre general du site */
+.heading{
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    font-size: 120%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*banner*/
+
+.banner{
+    margin-top: -20px;
+}
+
+.banner .banner-image{
+    position: relative;
+}
+
+.banner .banner-content{
+    position : absolute;
+    width: 100%;
+    text-align: center;
+    top: 35%;
+}
+
+.banner .banner-content h1, .banner .banner-content h2{
+    color: white;
+    
+}
+
+.banner .banner-content h1{
+    font-size: 2rem;
+}
+
+.banner .banner-content h2{
+    font-size: 1.02rem;
+}
+
+.banner .banner-content button{
+    font-size: 1.02rem;
+}
+/* incons post*/
+
+.post .post-single .icon{
+    font-size: 100px;
+    text-align: center;
+}
+
+.post .post-single{
+    text-align: center;
+}
+
+.post .post-single p{
+    text-align: left;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+/*effet rollhover sur les photos page index */
+
+.folio{
+    transition: 0.25 ease;
+}
+.folio:hover .folio-single a:not(:hover){
+    opacity: .4;
+}
+
+/*containers all position in the site */
+
+.container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*les paragraphe*/
+
+/* footer */
+
+.block-footer{
+    margin-bottom: -20px;
+}
+
+.footer{
+      background-color: #ecf0f1;
+      padding-top: 1em;
+      padding-bottom: 1em;
+}
+
+.footer h2{
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 30px;
+    text-align: left;
+    text-align: justify;
+}
+
+.footer .footer-information .footer-icon .icon{
+    
+    font-size: 100px;
+    vertical-align: middle;
+}
+
+.footer .footer-information .footer-icon a{
+   vertical-align: middle;
+}
+
+/* css pour les articles et les posts */
+
+.article-post-cfc{
+    padding: 2rem;
+}
+
+.article-post-cfc p{
+    padding: 1.2em;
+    text-align: justify;
+}
+    /** traitement sur les photos **/
+
+    .photoarticlewow{
+        width: 150px;
+        height: auto;    
+        float: left;
+        padding-right: 1em;
+        padding-top: 0.5em;
+    }
+
+    
